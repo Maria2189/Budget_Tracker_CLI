@@ -1,0 +1,24 @@
+{
+  "name": "budget-tracker-cli-hw01",
+  "version": "1.0.0",
+  "description": "Консольное приложение для управления личными финансами",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc --watch"
+  },
+  "keywords": [
+    "typescript",
+    "cli",
+    "budget"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "~5.9"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
