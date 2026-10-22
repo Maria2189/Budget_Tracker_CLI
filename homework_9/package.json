@@ -1,0 +1,31 @@
+{
+  "name": "budget-tracker-cli-hw09",
+  "version": "1.0.0",
+  "description": "Консольное приложение для управления личными финансами",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "dev": "tsx watch src/index.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "typescript",
+    "cli",
+    "budget"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22",
+    "tsx": "^4.23",
+    "typescript": "~5.9"
+  },
+  "dependencies": {
+    "moment": "^2.31",
+    "uuid": "^11"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  }
+}
